@@ -32,6 +32,9 @@ nav ul {
     padding: 0;
     margin: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 nav ul li {
@@ -42,7 +45,7 @@ nav ul li {
 nav ul li a {
     color: rgb(179, 177, 177);
     text-decoration: none;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 /* Footer Styling */
@@ -152,6 +155,18 @@ main {
         flex-direction: column;
         justify-content: center;
         gap: 15px;
+    }
+    nav ul {
+        color: rgb(179, 177, 177);
+        text-decoration: none;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    footer p {
+        margin: 5px 0;
+        font-size: 12px;
     }
 }
 
