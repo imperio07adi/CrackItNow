@@ -43,7 +43,6 @@ nav ul li a {
     font-size: 10px;
 }
 
-/* Resume Builder Section */
 .resource-category{
     flex: 1;
 }
@@ -92,7 +91,6 @@ nav ul li a {
     background-color: #0d8bf2;
 }
 
-/* Resume Preview Section */
 .resume-preview {
     background: white;
     padding: 20px;
@@ -104,7 +102,6 @@ nav ul li a {
     text-align: left;
 }
 
-/* Footer Styling */
 footer {
     background-color: #333;
     color: white;
