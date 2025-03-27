@@ -71,7 +71,7 @@ Contributions are welcome! Follow these steps:
 ## 📜 License  
 This project is licensed under the **MIT License** – feel free to use, modify, and share it!  
 
-🔗 **Live Demo** (if hosted): [CrackItNow](https://crackitnow.netlify.app/)  
+🔗 **Live Demo**: [CrackItNow](https://crackitnow.netlify.app/)  
 
 📩 **Contact**: [LinkedIn](https://www.linkedin.com/in/adityakokashe/) | [GitHub](https://github.com/imperio07adi)  
 
