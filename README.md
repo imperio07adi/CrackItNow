@@ -77,7 +77,3 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 
 ---
 
-This README is **clean, professional, and GitHub-friendly** with clear sections, a **live demo link placeholder**, and **future scope**. Let me know if you need modifications! 🚀🔥  
-```  
-
-You can replace **GitHub links** and **Live Demo** once hosted! Let me know if you want further refinements. 🚀
