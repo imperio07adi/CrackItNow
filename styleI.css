@@ -7,6 +7,17 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+header h1 a{
+    font-family: Moon Dance;
+}
+main .company-selection h2{
+    font-family: Poppins;
+    font-size: 25px;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -18,6 +29,7 @@ header {
     padding: 2px 0;
     text-align: center;
 }
+
 header h1{
     font-family: Moon Dance;
     font-size: 50px;
@@ -26,12 +38,16 @@ header h1{
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
+    background-color: #6b6464;
     margin: 10px 0;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    overflow:hidden;
     flex-direction: row;
+    flex-wrap: nowrap;
+    position:sticky;
 }
 
 nav ul li {
@@ -118,9 +134,9 @@ main {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    background-color: #1e90ff;
+    background-color: #5d029ad1;
     color: white;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
@@ -147,10 +163,12 @@ main {
         gap: 15px;
     }
     nav ul {
-        color: rgb(179, 177, 177);
+        color: whitesmoke;
         text-decoration: none;
-        font-size: 10px;
+        font-weight: 600;
+        font-size: 12px;
         display: flex;
+        overflow: hidden;
         justify-content: space-around;
         flex-direction: row;
         align-items: center;

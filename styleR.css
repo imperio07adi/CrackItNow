@@ -16,6 +16,11 @@ header {
     padding: 2px 0;
     text-align: center;
 }
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
 header h1{
     font-family: Moon Dance;
     font-size: 50px;
@@ -24,12 +29,16 @@ header h1{
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
+    background-color: #6b6464;
     margin: 10px 0;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    overflow:hidden;
     flex-direction: row;
+    flex-wrap: nowrap;
+    position:sticky;
 }
 
 nav ul li {
@@ -40,7 +49,7 @@ nav ul li {
 nav ul li a {
     color: rgb(179, 177, 177);
     text-decoration: none;
-    font-size: 10px;
+    /* font-size: 10px; */
 }
 
 .resource-category{
@@ -135,10 +144,12 @@ footer a{
 }
 @media screen and (max-width: 600px) {
     nav ul {
-        /* color: rgb(179, 177, 177);
+        color: whitesmoke;
         text-decoration: none;
-        font-size: 10px; */
+        font-weight: 600;
+        font-size: 12px;
         display: flex;
+        overflow: hidden;
         justify-content: space-around;
         flex-direction: row;
         align-items: center;

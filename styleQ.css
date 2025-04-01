@@ -7,22 +7,38 @@
     box-sizing: border-box;
     font-family: poppins;
 }
-
+h1 a{
+    font-family: Moon Dance;
+}
 header {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 2px 0;
     text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header h1{
+    font-family: Moon Dance;
+    font-size: 50px;
+    margin: 0;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
+    background-color: #6b6464;
     margin: 10px 0;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    overflow:hidden;
     flex-direction: row;
+    flex-wrap: nowrap;
+    position:sticky;
 }
 
 nav ul li {
@@ -33,11 +49,8 @@ nav ul li {
 nav ul li a {
     color: rgb(179, 177, 177);
     text-decoration: none;
-    font-size: 10px;
-    padding: 0;
-    margin: 0;
+    /* font-size: 10px; */
 }
-
 main {
     text-align: center;
     padding: 50px 20px;
@@ -46,6 +59,7 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #fffdd6;
+    
 }
 
 .questions-section {
@@ -55,6 +69,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 90%;
     max-width: 800px;
+    
 }
 
 .questions-section h2 {
@@ -77,6 +92,7 @@ main {
     text-align: left;
     background: linear-gradient(135deg, #4CAF50, #2E8B57);
     color: white;
+    margin: 10px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -136,19 +152,34 @@ footer a{
 }
 @media screen and (max-width: 600px) {
     nav ul {
-        /* color: rgb(179, 177, 177);
+        color: whitesmoke;
         text-decoration: none;
-        font-size: 10px; */
+        font-weight: 600;
+        font-size: 12px;
         display: flex;
+        overflow: hidden;
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
+    }
+    .questions-section{
+        width: 90vw;
+        margin: 0;
+        padding: 9px;
+    }
+    .answer{
+        background-color: #e6e88b;
+        margin-left: 15px;
+    }
+    .question{
+        width: 80vw;
+        
     }
     footer p {
         margin: 5px 0;
         font-size: 12px;
     }
     .fa{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
