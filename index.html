@@ -1,51 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styleI.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CrackItNow - Crack Your Dream Job</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1><a href="index.html">CrackItNow.</a></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <!-- <li><a href="company.html">Companies</a></li> -->
-                <!-- <li><a href="questions.html">Interview Questions</a></li> -->
-                <li><a href="resume.html">Resume Builder</a></li>
-                <li><a href="resources.html">Resources</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="company-selection">
-            <h2>Select a Company</h2>
-            <div class="company-list">
-                <button class="company-btn" onclick="goToCompanyPage('TCS')">TCS</button>
-                <button class="company-btn" onclick="goToCompanyPage('Infosys')">INFOSYS</button>
-                <button class="company-btn" onclick="goToCompanyPage('Wipro')">WIPRO</button>
-                <button class="company-btn" onclick="goToCompanyPage('Accenture')">Accenture</button>
-                <button class="company-btn" onclick="goToCompanyPage('KPIT')">KPIT</button>
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; Managed by ~ <a class="fa" href="https://adiair.netlify.app/">adi.air</a> | Designed for TIT Excellence Students</p>
-        <div class="footer-links">
-            <a href="https://www.linkedin.com/in/adityakokashe/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/imperio07adi" target="_blank">GitHub</a>
-            <a href="mailto:adi310kokashe@gmail.com">Contact Us</a>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <h1><a href="index.html">CrackItNow<span>.</span></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#companies">Companies</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Crack Your Dream Job Interviews</h2>
+      <p>Tailored interview preparation for top companies like TCS, Infosys, Wipro, and more.</p>
+      <a href="#companies" class="btn">Start Preparing</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About CrackItNow</h2>
+      <p>CrackItNow is designed to make interview preparation simple and targeted. With company-specific questions, resume help, and expert resources, we're your partner to crack top companies.</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container features-grid">
+      <div class="feature-item">
+        <h3>Company Specific Questions</h3>
+        <p>Practice real questions asked in TCS, Infosys, Wipro, and many more.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Resume Builder</h3>
+        <p>Create a professional resume easily to impress recruiters.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Expert Resources</h3>
+        <p>Access curated materials, tips, and insights to ace interviews.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Companies Section -->
+  <section id="companies" class="companies">
+    <div class="container">
+      <h2>Select a Company</h2>
+      <div class="company-buttons">
+        <button onclick="goToCompanyPage('TCS')">TCS</button>
+        <button onclick="goToCompanyPage('Infosys')">Infosys</button>
+        <button onclick="goToCompanyPage('Wipro')">Wipro</button>
+        <button onclick="goToCompanyPage('Accenture')">Accenture</button>
+        <button onclick="goToCompanyPage('KPIT')">KPIT</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>Student Reviews</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"CrackItNow helped me crack my Infosys interview in the first attempt!"</p>
+          <h4>— Anjali S, Software Engineer</h4>
         </div>
-    </footer>
-    
-    <script>
-        function goToCompanyPage(company) {
-            window.location.href = `company.html?company=${company}`;
-        }
-    </script>
+        <div class="testimonial">
+          <p>"Simple, clear and powerful resources. Loved the resume builder too!"</p>
+          <h4>— Rohit M, TCS</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container footer-container">
+      <p>&copy; 2025 CrackItNow | Designed by <a href="https://adiair.netlify.app/">adi.air</a> for TIT Excellence Students.</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/adityakokashe/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/imperio07adi" target="_blank">GitHub</a>
+        <a href="mailto:adi310kokashe@gmail.com">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function goToCompanyPage(company) {
+      window.location.href = `company.html?company=${company}`;
+    }
+  </script>
+
 </body>
 </html>
